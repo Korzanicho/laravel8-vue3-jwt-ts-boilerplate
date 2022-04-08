@@ -1,4 +1,4 @@
-# laravel8 + vue3 (ts, vite, pinia, router) boilerplate # 
+# laravel8 + vue3 (ts, vite, pinia, router, jwt auth) boilerplate # 
 
 ## Installation ##
 
@@ -11,7 +11,11 @@
 `docker-compose run --rm composer install`
 
 ### generate app key ###
+make sure you have .env file
 `docker-compose run --rm artisan key:generate`
+
+### make migration ###
+`docker-compose run --rm artisan migrate`
 
 ### Install modules ###
 
