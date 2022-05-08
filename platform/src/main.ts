@@ -12,6 +12,7 @@ const saveSession = () => {
 
   if (token) {
     authStore.token = token;
+    axios.defaults.headers.common["Authorization"] = token;
   }
 
   axios.interceptors.response.use(
