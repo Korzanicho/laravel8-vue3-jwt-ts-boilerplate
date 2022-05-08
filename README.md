@@ -15,7 +15,7 @@ make sure you have .env file
 `docker-compose run --rm artisan key:generate`
 
 ### make migration ###
-`docker-compose run --rm artisan migrate`
+`docker-compose run --rm artisan migrate:fresh`
 
 ### Install modules ###
 
