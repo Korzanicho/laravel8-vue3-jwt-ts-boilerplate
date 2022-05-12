@@ -14,6 +14,9 @@
 make sure you have .env file
 `docker-compose run --rm artisan key:generate`
 
+### add jwt secret ###
+`docker-compose run --rm artisan jwt:secret`
+
 ### make migration ###
 `docker-compose run --rm artisan migrate:fresh`
 
