@@ -52,6 +52,7 @@ make sure you have .env file
 
 Database (mariadb) like as nginx and php is running with docker. You can connect database to any database manager with this data:
 
+* DB_HOST: __mysql__
 * Database: __laravel__
 * User: __laravel__
 * Password: __secret__
